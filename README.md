@@ -46,6 +46,38 @@ A production-ready backend template built with **NestJS** — designed for scala
 ### 1. Clone the repository
 
 ```bash
-git clone https://gitlab.com/your-name/nestjs-template.git
-cd nestjs-template
+git clone https://github.com/earthzas11037/Task-Management-API.git
+cd Task-Management-API
+```
+
+### 2. Setup environment variables
+
+```bash
+cp .env.example .env
+```
+
+### 3. Create Schema Mysql
+
+- สร้าง database schema ชื่อ template_api ใน MySQL
+
+```bash
+CREATE DATABASE template_api CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+```
+
+### 4. Install dependencies
+
+```bash
+yarn install
+```
+
+### 5. Run the development server
+
+```bash
+yarn start:local
+```
+
+### 6. API server
+
+```bash
+http://localhost:5000
 ```
