@@ -1,0 +1,5 @@
+export enum ScopeEnum {
+  ORGANIZATION = 'ORGANIZATION',
+  PROJECT = 'PROJECT',
+  SYSTEM = 'SYSTEM',
+}
